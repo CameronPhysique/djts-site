@@ -8562,6 +8562,41 @@ h1, h2, h3, h4, h5,
     .ftco-counter .counter-wrap {
       margin-bottom: 20px; } }
 
+.services-logo {
+        width: 300px;
+        height: auto;
+        padding: 2rem;
+      }
+
+.services-banner{
+  width: 100%;
+}
+
+#services-header {
+  color: white;
+}
+
+.product-img {
+  float: right;
+  width: 200px;
+  height: auto;
+  padding: 1.5rem;
+}
+
+.product-div {
+  padding: 2rem;
+}
+
+.product-div p {
+  padding: 4rem 2rem 2rem;
+  
+}
+
+.product-div-right {
+  align-items: right;
+}
+
+
 .staff {
   width: 100%;
   margin-bottom: 0;
