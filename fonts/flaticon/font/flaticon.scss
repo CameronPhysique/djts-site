@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7dd16d402146ecdb5177af6c36f8cd9d") format("truetype"),
+url("./flaticon.woff?7dd16d402146ecdb5177af6c36f8cd9d") format("woff"),
+url("./flaticon.woff2?7dd16d402146ecdb5177af6c36f8cd9d") format("woff2"),
+url("./flaticon.eot?7dd16d402146ecdb5177af6c36f8cd9d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7dd16d402146ecdb5177af6c36f8cd9d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "roof": "\f101",
+    "pressure-washer": "\f102",
+    "blockage": "\f103",
+    "leak": "\f104",
+    "gable": "\f105",
+    "window-cleaning": "\f106",
+    "tik-tok": "\f107",
+    "google": "\f108",
+    "facebook-app-symbol": "\f109",
+    "instagram": "\f10a",
+    "youtube": "\f10b",
+);
+
+.flaticon-roof:before {
+    content: map-get($flaticon-map, "roof");
+}
+.flaticon-pressure-washer:before {
+    content: map-get($flaticon-map, "pressure-washer");
+}
+.flaticon-blockage:before {
+    content: map-get($flaticon-map, "blockage");
+}
+.flaticon-leak:before {
+    content: map-get($flaticon-map, "leak");
+}
+.flaticon-gable:before {
+    content: map-get($flaticon-map, "gable");
+}
+.flaticon-window-cleaning:before {
+    content: map-get($flaticon-map, "window-cleaning");
+}
+.flaticon-tik-tok:before {
+    content: map-get($flaticon-map, "tik-tok");
+}
+.flaticon-google:before {
+    content: map-get($flaticon-map, "google");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon-map, "facebook-app-symbol");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}

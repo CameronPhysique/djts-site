@@ -8467,7 +8467,7 @@ h1, h2, h3, h4, h5,
   .services .d-block {
     margin-bottom: 20px; }
     .services .d-block:hover .icon {
-      background: #000000; }
+      background: #e61424; }
       .services .d-block:hover .icon:after {
         bottom: -7px;
         height: 7px;
@@ -8575,6 +8575,11 @@ h1, h2, h3, h4, h5,
 
 #services-header {
   color: white;
+}
+
+.flaticon {
+  width:100%;
+  height: auto;
 }
 
 .product-img {
@@ -8977,6 +8982,10 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
+
+  #picker-banner {
+    background-size: cover;
+  }
 
 .about-author .desc h3 {
   font-size: 24px; }
