@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?7dd16d402146ecdb5177af6c36f8cd9d") format("truetype"),
-url("./flaticon.woff?7dd16d402146ecdb5177af6c36f8cd9d") format("woff"),
-url("./flaticon.woff2?7dd16d402146ecdb5177af6c36f8cd9d") format("woff2"),
-url("./flaticon.eot?7dd16d402146ecdb5177af6c36f8cd9d#iefix") format("embedded-opentype"),
-url("./flaticon.svg?7dd16d402146ecdb5177af6c36f8cd9d#flaticon") format("svg");
+    src: url("./flaticon.ttf?018178869903bd131636511db646abec") format("truetype"),
+url("./flaticon.woff?018178869903bd131636511db646abec") format("woff"),
+url("./flaticon.woff2?018178869903bd131636511db646abec") format("woff2"),
+url("./flaticon.eot?018178869903bd131636511db646abec#iefix") format("embedded-opentype"),
+url("./flaticon.svg?018178869903bd131636511db646abec#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -50,4 +50,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-youtube:before {
     content: "\f10b";
+}
+.flaticon-clean-window:before {
+    content: "\f10c";
 }

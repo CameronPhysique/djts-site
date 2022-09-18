@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?7dd16d402146ecdb5177af6c36f8cd9d") format("truetype"),
-url("./flaticon.woff?7dd16d402146ecdb5177af6c36f8cd9d") format("woff"),
-url("./flaticon.woff2?7dd16d402146ecdb5177af6c36f8cd9d") format("woff2"),
-url("./flaticon.eot?7dd16d402146ecdb5177af6c36f8cd9d#iefix") format("embedded-opentype"),
-url("./flaticon.svg?7dd16d402146ecdb5177af6c36f8cd9d#flaticon") format("svg");
+    src: url("./flaticon.ttf?018178869903bd131636511db646abec") format("truetype"),
+url("./flaticon.woff?018178869903bd131636511db646abec") format("woff"),
+url("./flaticon.woff2?018178869903bd131636511db646abec") format("woff2"),
+url("./flaticon.eot?018178869903bd131636511db646abec#iefix") format("embedded-opentype"),
+url("./flaticon.svg?018178869903bd131636511db646abec#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -32,6 +32,7 @@ $flaticon-map: (
     "facebook-app-symbol": "\f109",
     "instagram": "\f10a",
     "youtube": "\f10b",
+    "clean-window": "\f10c",
 );
 
 .flaticon-roof:before {
@@ -66,4 +67,7 @@ $flaticon-map: (
 }
 .flaticon-youtube:before {
     content: map-get($flaticon-map, "youtube");
+}
+.flaticon-clean-window:before {
+    content: map-get($flaticon-map, "clean-window");
 }
