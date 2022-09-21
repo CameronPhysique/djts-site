@@ -3375,23 +3375,15 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
-      color: #fff;
+      color: rgb(0, 0, 0)000;
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #fff;
+    color: rgb(0, 0, 0)000;
     pointer-events: none;
     cursor: default; }
-
-#nav-link {
-
-  color: #fff;
-}    
-
-
-
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
@@ -3404,12 +3396,12 @@ input[type="button"].btn-block {
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
-      color: #fff;
+      color: #000000;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #fff;
+    color: #000000;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
@@ -3422,7 +3414,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000000;
   background-color: #007bff; }
 
 .nav-fill .nav-item {
